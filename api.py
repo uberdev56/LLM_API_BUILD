@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from fastapi import FastAPI, Depends, HTTPException, Header
+from pydantic import BaseModel
 import ollama
 import os
 
